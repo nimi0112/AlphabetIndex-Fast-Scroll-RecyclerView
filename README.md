@@ -21,11 +21,9 @@ allprojects {
 And then in the other gradle file(may be your app gradle or your own module library gradle, but never add in both of them to avoid conflict.)
 ```java
 dependencies {
-    // AppCompat version
-    // compile 'com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.92'
-	
-	// AndroidX version
-	compile 'com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.94'
+   // AndroidX version
+	 implementation 'com.github.nimi0112:AlphabetIndex-Fast-Scroll-RecyclerView:[![](https://jitpack.io/v/nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView.svg)](https://jitpack.io/#nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView)
+'
 }
 ```          
 How to use
@@ -134,6 +132,11 @@ mRecyclerView.setIndexbarHighLateTextColor(R.color.index_bar_highlight_text_colo
 - To hide/show IndexBarHighLateText:
 ```java
 mRecyclerView.setIndexBarHighLateTextVisibility(true);
+```
+- To update the indexes list after dataset has been changed
+```java
+mRecyclerView.updateSections();
+
 ```
 Compatibility
 -----
