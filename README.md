@@ -1,6 +1,8 @@
 # AlphabetIndex Fast Scroll RecyclerView
 A Powerful AlphabetIndex FastScroller for Android's RecyclerView!
 
+[![](https://jitpack.io/v/nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView.svg)](https://jitpack.io/#nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView)
+
  ![AlphabetIndex-Fast-Scroll-RecyclerView - Example1](https://raw.githubusercontent.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/0d6c4f2f0b9f3b573a4f2abf2c87b62237081286/images-gif/AlphabetIndex-Fast-Scroll-RecyclerView_1.gif)
  `` `` `` `` `` `` `` ``
   ![AlphabetIndex-Fast-Scroll-RecyclerView - Example2](https://raw.githubusercontent.com/myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/0d6c4f2f0b9f3b573a4f2abf2c87b62237081286/images-gif/AlphabetIndex-Fast-Scroll-RecyclerView_2.gif)
@@ -22,7 +24,7 @@ And then in the other gradle file(may be your app gradle or your own module libr
 ```java
 dependencies {
    // AndroidX version
-	 implementation 'com.github.nimi0112:AlphabetIndex-Fast-Scroll-RecyclerView:[![](https://jitpack.io/v/nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView.svg)](https://jitpack.io/#nimi0112/AlphabetIndex-Fast-Scroll-RecyclerView)
+	 implementation 'com.github.nimi0112:AlphabetIndex-Fast-Scroll-RecyclerView:1.0'
 '
 }
 ```          
